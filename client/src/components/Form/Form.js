@@ -6,7 +6,6 @@ import useStyles from './styles';
 import { createPost, updatePost } from '../../actions/posts';
 import { useSelector } from 'react-redux';
 
-
 const Form = ({ currentId, setCurrentId }) => {
     const [postData, setPostData] = useState({
         creator: '',
